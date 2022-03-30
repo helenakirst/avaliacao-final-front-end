@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;;    
+}
+
+body{
+    display: flex;
+}
+
+.navegar{
+    width: 300px;
+    height: 100vh;
+    background-color: rgb(189, 155, 202);
+    position: relative
+}
+
+.perfil{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 45px; 
+    top: 25%;    
+}
+
+li > a{
+    font-size: 1.2em;
+    color: white;
+}
+
+li > a:hover, .ativo{
+    color: rgb(53, 8, 90);
+    font-weight: bolder;
+    font-size: 1.3em;    
+}
+
+.lista{
+    width: 300px;
+    text-transform: uppercase;    
+    text-align: center;
+    position: absolute;
+    top: 60%;
+}
+
+li{
+    padding-top: 20px;
+}
+
+.dados{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 50px;
+}
+
+.name{
+    font-family: 'Barlow', sans-serif;
+    font-size: 3.5em;
+    color: rgb(53, 8, 90);
+}
+
+.address, .fone{
+    font-family: 'Barlow', sans-serif;
+    color: black;
+}
+
+section > p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 1.2em;
+}
+
+.link{
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+.conhecimentos{    
+    font-size: 1.2em;
+}
+
+li::marker{    
+    font-weight: bold;
+}
+
+.flex{
+    display: flex;
+}
+
+#ol2 {
+    margin-left: 70px;
+}
+
